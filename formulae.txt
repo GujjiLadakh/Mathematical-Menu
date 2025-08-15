@@ -1,0 +1,18 @@
+Pythagoras's theorem, a^2 + b^2 = c^2
+Area of a right-angled triangle, (1/2)absin(C)
+Sine rule (angles), sin(A) / a = sin(B) / b = sin(C) / c
+Sine rule (sides), a / sin(A) = b / sin(B) = c / sin(C)
+Cosine rule (angles), cos(A) = (b^2 + c^2 - a^2) / (2bc)
+Cosine rule (sides), a^2 = b^2 + c^2 - 2bccos(A)
+Area of a circle, <pi>r^2
+Circumference of a circle, 2<pi>r
+Volume of cylinder, <pi>r^2h
+Surface area of cylinder, 2<pi>rh
+Volume of sphere, (4/3)<pi>r^3
+Surface area of sphere, 4<pi>r^2
+Area of trapezium, 0.5(a + b)h
+Compound interest, P(1 + (r / 100))^t
+Exponential decay, P(1 - r)^t
+Area of pyramid, (1/3)lwh
+Quadratic formula (result 1), (-b + -/b^2 - 4ac) / 2a
+Quadratic formula (result 2), (-b - -/b^2 - 4ac) / 2a

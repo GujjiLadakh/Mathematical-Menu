@@ -1,0 +1,122 @@
+>>> from mathematicalMenu import *
+
+>>> encrypt('hello', 'there123')
+('mZqgt', 'lpWzW9t!')
+
+>>> decrypt_username('mZqgt')
+'hello'
+
+>>> decrypt_password('lpWzW9t!')
+'there123'
+
+>>> differentiate('x ** 3', 'x')
+The derivative is 3*x**2
+
+>>> linear_search([1,2,3,4,5], 3)
+'Found at index 2'
+
+>>> binary_search([1,2,3,4,5], 3, 0, 5)
+'Found at index 2, [1, 2, 3, 4, 5]'
+
+>>> acquire_simultaneous_coefficients(['y', '-2x', '12'], ['5y', '-6x', '40'])
+(5.0, 2.0)
+
+>>> acquire_simultaneous_coefficients(['-3y', '-4x', '7'], ['3y', '-x', '13'])
+(4.0, 3.0)
+
+>>> trig_angle_sine('3', '5')
+The missing angle is 36.87
+
+>>> trig_angle_cosine('3', '5')
+The missing angle is 53.13
+
+>>> trig_angle_tangent('3', '5')
+The missing angle is 30.96
+
+>>> trig_side_hyp_opp('5', '46')
+The hypotenuse side length is 6.95
+
+>>> trig_side_hyp_adj('5', '46')
+The hypotenuse side length is 7.20
+
+>>> trig_side_opp_hyp('5', '83')
+The opposite side length is 4.96
+
+>>> trig_side_opp_adj('3', '27')
+The opposite side length is 1.53
+
+>>> trig_side_adj_hyp('7', '62')
+The adjacent side length is 3.29
+
+>>> trig_side_adj_opp('4', '56')
+The adjacent side length is 2.70
+
+>>> circles('5')
+The area is 78.54
+The circumference is 31.42
+
+>>> sphere('7')
+The volume of the sphere is 1436.76 and the surface area is 615.75
+
+>>> cylinder('3', '5')
+The volume of the cylinder is 141.37 and the surface area is 150.80
+
+>>> pyramid('4', '6', '5')
+The volume of the pyramid is 26.67 and the surface area is 64.00
+
+>>> interior_and_exterior_angles('4')
+The total value of all the interior angles is 360 degrees, each interior angle is 90.0 degrees and the exterior angle is 90.0 degrees
+
+>>> create_quadratic_graph(1, 5, 4, -1, -4)
+'The y-intercept is 4\nThe x-intercepts are -1 and -4, which are the solutions to the quadratic equation\nThe min/max point is (-2.5, -2.25)'
+
+>>> find_line_equation('2', '3', '7', '8')
+The gradient of the line is 1.0 and the y-intercept is 1.0
+
+>>> find_line_equation('-1', '1', '-2', '2')
+The gradient of the line is -1.0 and the y-intercept is 0.0
+
+>>> find_midpoint('4', '3', '8', '6')
+The coordinates of the midpoint of the line are (6.0, 4.5)
+
+>>> find_point_with_ratio('3', '6', '2', '7', '1', '2')
+The point between point A and point B given the ratio 1:2 is (2.7, 6.3)
+
+>>> find_distance('2', '3', '4', '5')
+The distance between point A and point B is 2.83
+
+>>> distance_conversions('5', 'km')
+'3.12 miles'
+
+>>> distance_conversions('5', 'mi')
+'8.00 km'
+
+>>> fluid_conversions('5', 'ml')
+'\n0.176 fl oz\n0.009 pints\n0.001 gallons\n'
+
+>>> fluid_conversions('5', 'floz')
+'\n142.065 ml\n0.250 pints\n0.031 gallons\n'
+
+>>> fluid_conversions('5', 'pt')
+'\n2841.300 ml\n100.000 fl oz\n0.625 gallons\n'
+
+>>> fluid_conversions('5', 'gl')
+'\n22730.400 ml\n800.000 fl oz\n40.000 pints\n'
+
+>>> mass_conversions('5', 'kg')
+'\n11.023 lb\n176.370 oz\n0.787 stone\n'
+
+>>> mass_conversions('5', 'lb')
+'\n2.268 kg\n80.000 oz\n0.357 stone\n'
+
+>>> mass_conversions('5', 'oz')
+'\n0.142 kg\n0.312 lb\n0.022 stone\n'
+
+>>> mass_conversions('5', 'st')
+'\n31.751 kg\n70.000 lb\n1120.000 oz\n'
+
+>>> temperature_conversions('5', 'oC')
+'41.0 oF'
+
+>>> temperature_conversions('5', 'oF')
+'-15.0 oC'
